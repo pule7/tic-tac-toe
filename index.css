@@ -41,3 +41,24 @@ h3 {
 label {
     display: block;
 }
+
+#game {
+    display: none;
+}
+
+#game-board {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    width: 600px;
+    height: 400px;
+    padding-left: 0;
+    margin: 3rem auto;
+}
+
+#game-board li {
+    background-color: aquamarine;
+    align-content: center;
+
+}
