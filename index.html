@@ -25,8 +25,8 @@
               required
             />
           </div>
-          <p>Symbol X</p>
-          <button id="save-player1">Save</button>
+          <p>Symbol <br><strong>X</strong></p>
+          <button id="save-player-btn-1">Save</button>
         </form>
         <form id="form2">
           <h3 id="player2">Player 2</h3>
@@ -39,26 +39,26 @@
               required
             />
           </div>
-
-          <p>Symbol Y</p>
-          <button id="save-player2">Save</button>
+          <p>Symbol <br><strong>O</strong></p>
+          <button id="save-player-btn-2">Save</button>
         </form>
       </section>
       <button id="start-game">Start game</button>
       <section id="game">
-        <p>Your turn <span id="active-player"></span>!</p>
+        <p id="switch-paragraph">Your turn <span id="active-player"></span>!</p>
+        <p id="winner-paragraph"></p>
         <ul id="game-board">
-          <li></li>
-          <li></li>
-          <li></li>
+          <li data-row="0" data-col="0"></li>
+          <li data-row="0" data-col="1"></li>
+          <li data-row="0" data-col="2"></li>
 
-          <li></li>
-          <li></li>
-          <li></li>
+          <li data-row="1" data-col="0"></li>
+          <li data-row="1" data-col="1"></li>
+          <li data-row="1" data-col="2"></li>
 
-          <li></li>
-          <li></li>
-          <li></li>
+          <li data-row="2" data-col="0"></li>
+          <li data-row="2" data-col="1"></li>
+          <li data-row="2" data-col="2"></li>
         </ul>
       </section>
     </main>

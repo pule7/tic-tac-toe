@@ -62,3 +62,8 @@ label {
     align-content: center;
 
 }
+
+.winner {
+    color: red;
+    font-size: 2rem;
+}
